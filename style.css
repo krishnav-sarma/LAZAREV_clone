@@ -712,3 +712,26 @@ summary::marker {
 #btm6-part2 h4:nth-child(7){
     transform: translateX(50%);
 }
+
+
+
+
+#btm6-part3 h4:nth-child(2){
+    transform: translateX(0);
+}
+#btm6-part3 h4:nth-child(3){
+    transform: translateX(20%);
+}
+
+
+
+
+#btm6-part4 h4:nth-child(2){
+    transform: translateX(0);
+}
+#btm6-part4 h4:nth-child(3){
+    transform: translateX(20%);
+}
+#btm6-part4 h4:nth-child(4){
+    transform: translateX(40%);
+}

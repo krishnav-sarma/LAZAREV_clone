@@ -1,11 +1,3 @@
-// Initialize Lenis
-const lenis = new Lenis({
-    autoRaf: true,
-  });
-  lenis.on('scroll', (e) => {
-  });
-
-
 function locomotiveAnimation() {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -184,6 +176,28 @@ function page6Animations() {
             trigger: "#btm6-part2",
             scroller: "#main",
             // markers:true,
+            start: "top 80%",
+            end: "top 10%",
+            scrub: true
+        }
+    })
+    gsap.from("#btm6-part3 h4", {
+        x: 0,
+        duration: 1,
+        scrollTrigger: {
+            trigger: "#btm6-part3",
+            scroller: "#main",
+            start: "top 80%",
+            end: "top 10%",
+            scrub: true
+        }
+    })
+    gsap.from("#btm6-part4 h4", {
+        x: 0,
+        duration: 1,
+        scrollTrigger: {
+            trigger: "#btm6-part4",
+            scroller: "#main",
             start: "top 80%",
             end: "top 10%",
             scrub: true
